@@ -7,10 +7,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <dialog id="favDialog">
+        <form method="dialog" class="book-form">
+            <label for="title">Book title</label>
+            <input type="text" name="title" >
+            <label for="author">Book author</label>
+            <input type="text" name="author">
+            <label for="num-pages">Number of Pages</label>
+            <input type="text" name="num-pages">
+            <label for="read">Read? Not read yet?</label>
+            <select name="read">
+                <option>Read</option>
+                <option>Not read yet</option>
+            </select>
+            <div>
+                <button id="cancel" type="reset">Cancel</button>
+                <button id="submit" type="submit">Confirm</button>
+            </div>
+            
+        </form>
+        
+      </dialog>
     
     <div class="card-container">
         
     </div>
+    <button class="add-book">+ Add a new Book</button>
+
     <script src="logic.js"></script>
 </body>
 

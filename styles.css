@@ -14,7 +14,22 @@
     justify-content: space-around;
 }
 
+.card p{
+    text-align: center;
+}
+
 .delete-book{
     background-color: red;
     color: white;
+}
+
+.add-book{
+    background-color: green;
+    color: white;
+}
+
+.book-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
